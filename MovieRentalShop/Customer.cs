@@ -54,7 +54,7 @@ namespace MovieRentalShop
                 if ((each.Movie.PriceCode == Movie.NEW_RELEASE) && each.DaysRented > 1) frequentRenterPoints++;
 
                 // show figures for the rental
-                result += "\t" + each.Movie.Title + "\t" + thisAmount + "\n";
+                result += " " + each.Movie.Title + " " + thisAmount + "\n";
                 totalAmount += thisAmount;
             }
 
